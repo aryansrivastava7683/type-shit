@@ -84,7 +84,7 @@ export default function Home() {
         {/* SIDEBAR */}
         <div
           className={`
-            fixed top-0 left-0 h-full w-[80%] md:w-[300px]
+            fixed top-0 left-0 h-full w-[80%] md:w-[300px] overflow-scroll
             bg-zinc-950 border-r border-white/10 shadow-2xl z-50
             transform transition-transform duration-300
             ${open ? "translate-x-0" : "-translate-x-full"}
