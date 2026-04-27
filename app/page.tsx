@@ -46,7 +46,7 @@ export default function Home() {
       style={{ backgroundImage: "url('/img/bg.gif')" }}
     >
       {/* dark overlay */}
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+      <div className="absolute inset-0 bg-black/70 "></div>
 
       <div className="relative z-10 w-full flex flex-col items-center">
 
