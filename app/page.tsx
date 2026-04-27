@@ -65,7 +65,7 @@ export default function Home() {
             />
 
             {/* TITLE */}
-            <h1 className="text-center text-4xl font-extrabold tracking-wider text-white p-2 ">
+            <h1 className="text-center md:text-4xl text-2xl font-extrabold tracking-wider text-white p-2 ">
               Night's Shit Post
             </h1>
 
