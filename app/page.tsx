@@ -93,6 +93,7 @@ export default function Home() {
           <div className="p-6">
             <h2 className="text-xl font-bold mb-6">Posts</h2>
 
+
             <ul className="space-y-4">
               {posts.map((p) => (
                 <li
@@ -137,6 +138,13 @@ export default function Home() {
           )}
 
         </main>
+        <footer className="w-full h-[40px] flex items-center justify-center text-sm text-white/50">
+          &copy; {new Date().getFullYear()} Night's Shit Post. All rights reserved.
+
+        </footer>
+        <a href="https://aryan-srivastava-ptf.vercel.app/" className="hover:text-purple-400 transition p-2 text-xs">
+          Night's Site
+        </a>
       </div>
     </div>
   );
