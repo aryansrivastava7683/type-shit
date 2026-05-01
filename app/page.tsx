@@ -60,7 +60,7 @@ export default function Home() {
               alt="menu"
               width={40}
               height={40}
-              className="bg-white cursor-pointer rounded-xl"
+              className= "invert cursor-pointer rounded-xl"
               onClick={() => setOpen(true)}
             />
 
@@ -109,7 +109,7 @@ export default function Home() {
         </div>
 
         {/* POSTS */}
-        <main className="w-full flex flex-col items-center px-4 py-6 gap-8 overflow-y-auto h-[calc(100vh-80px)]">
+        <main className="w-full flex flex-col items-center px-4 py-6 gap-8 overflow-y-auto h-[calc(100vh-80px)] ">
 
           {posts.map((item) => (
             <div
