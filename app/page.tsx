@@ -63,13 +63,16 @@ export default function Home() {
               className= "invert cursor-pointer rounded-xl"
               onClick={() => setOpen(true)}
             />
+            
 
             {/* TITLE */}
             <h1 className="text-center md:text-4xl text-2xl font-extrabold tracking-wider text-white p-2 ">
               Night's Shit Post
             </h1>
 
-            <div />
+            <a href="/recs" className="text-white p-2 hover:text-purple-400 transition border-2 border-blue-400 rounded-xl hover:bg-blue-300 hover:text-black">
+              Recs
+            </a>
           </div>
         </header>
 
@@ -92,6 +95,7 @@ export default function Home() {
         >
           <div className="p-6">
             <h2 className="text-xl font-bold mb-6">Posts</h2>
+            
 
 
             <ul className="space-y-4">
